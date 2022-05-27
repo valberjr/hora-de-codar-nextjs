@@ -1,20 +1,9 @@
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
     return (
         <div>
-            <ul>
-                <li>
-                    <Link href="/products">
-                        <a>Produtos</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/about">
-                        <a>Sobre nós</a>
-                    </Link>
-                </li>
-            </ul>
+            <Navbar />
             <h1>Hello World Next.js</h1>
         </div>
     );
