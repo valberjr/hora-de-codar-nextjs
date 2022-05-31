@@ -19,6 +19,11 @@ export default function Navbar() {
                     <a>Sobre nós</a>
                 </Link>
             </li>
+            <li>
+                <Link href="/contact">
+                    <a>Contato</a>
+                </Link>
+            </li>
         </ul>
     );
 }
